@@ -76,6 +76,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Create a Account" titleAlignment="center"/>
                                 <connections>
                                     <action selector="CreateButtonClicked:" destination="BPC-Sh-X7l" eventType="touchUpInside" id="cQd-pf-2M8"/>
+                                    <segue destination="PoY-Ha-5ul" kind="show" id="GuH-rY-eAr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,7 +87,6 @@
                     <connections>
                         <outlet property="EmailTextField" destination="0xS-ru-ed5" id="MtR-SG-aOv"/>
                         <outlet property="PasswordTextField" destination="F1Q-Qp-enO" id="M6I-ZL-KbO"/>
-                        <segue destination="PoY-Ha-5ul" kind="show" identifier="goTonext" id="YK0-Ff-C1R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0r-qK-a9f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -229,7 +229,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="exW-GA-blN"/>
+        <segue reference="GuH-rY-eAr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
